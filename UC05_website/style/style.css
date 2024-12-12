@@ -1,0 +1,104 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+      display: flex;
+      flex-direction: column; 
+      justify-content: space-between;
+      height: 100vh;
+}
+
+header{
+         background-color: #333;
+         color: #ffffff;
+         padding: 1rem 0;
+         
+}
+
+.header-container{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           text-align: right;
+}
+.logo{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       gap: 0.5rem;
+       
+}
+.logo img{
+       width: 100px;
+       height: auto;
+       
+}
+
+nav{
+      display: flex;
+}
+
+.menu {
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     gap: 1rem;
+     margin: 0.5rem;
+     padding: 0;
+}
+
+.menu li{
+       margin: 0;
+}
+.menu a{
+       color: white;
+       text-decoration: none;
+       font-weight: bold;
+}
+
+main{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 100%;
+    
+}
+
+.produtos{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+}
+
+.produto{
+        text-align: center;
+}
+
+.produto img{
+        width: 400px;
+        height: auto;
+}
+
+footer{
+       background-color: #333;
+       color: #ffffff;
+       text-align: center;
+       padding: 1rem 0;
+       height: auto;
+}
+
+.txt1{
+	  text-align: center;
+}
+
+.txt2{
+         text-align: center;
+}
+
+
+
